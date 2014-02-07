@@ -273,7 +273,7 @@ $ mdpress readme.md
 これだけで *readme* というフォルダが作成され、その中の *index.html* を開くとプレゼンテーションが始まる。
 
 ---
-###Quickstart (writing your first presentation!)
+###簡単な例
 
     #### Chicken Chicken Chicken
     ##### By Chicken
@@ -283,6 +283,13 @@ $ mdpress readme.md
     #### Chicken
     - Chicken
     - Chicken Chicken
+
+---
+```
+$ mdpress readme.md
+```
+
+*readme* フォルダができるので、その中の *index.html* を開くと・・・
 
 ---
 #### Chicken Chicken Chicken
