@@ -166,9 +166,7 @@
       <div class='step' >
     
 <p>2014年は、1ヶ月以上先には予定を入れない。そして、1周間に入れるイベントは1つか、軽い負担のイベント（映画を見に行くとか）2つ。平日の夜のイベントには出ない。金曜の夜でも土曜の午前中に用事がある場合は飲みに行ったりしない。</p>
-</div>
-      <div class='step' >
-    
+
 <p>勉強会の責任者はやらない。ハンズオンの講師もやらない。リーダーもやらない。</p>
 
 <p>代わりに誰か他の人にやってもらう。自分はバックグラウンドで動くが、責任者にはならない。</p>
@@ -193,23 +191,18 @@
 <li>Rails</li>
 <li>Node.js</li>
 <li>HTML5 Canvas</li>
+<li>HTML5 オフラインキャッシュ</li>
+<li>yeoman</li>
+<li>Bower</li>
 </ul>
 </div>
       <div class='step' >
     
 <ul>
-<li>HTML5 オフラインキャッシュ</li>
-<li>yeoman</li>
-<li>Bower</li>
 <li>Parse.com</li>
 <li>Backbone</li>
 <li>Knockout.js</li>
 <li>Ubuntu</li>
-</ul>
-</div>
-      <div class='step' >
-    
-<ul>
 <li>OpenGL</li>
 <li>Jasmine</li>
 <li>Express</li>
@@ -350,6 +343,32 @@
 <h5>発展</h5>
 
 <p>スタンドアローンではなく、作った実験を他の人に見せたり、他の人の作った実験を改造できるようにする（Scratchのように）。</p>
+</div>
+      <div class='step' >
+    
+<h3>Markdownでプレゼンテーション</h3>
+
+<p>mdpressというgemを使う。</p>
+<pre><code class='prettyprint '>$ mdpress readme.md
+</code></pre>
+<p>これだけで <em>readme</em> というフォルダが作成され、その中の <em>index.html</em> を開くとプレゼンテーションが始まる。</p>
+</div>
+      <div class='step' >
+    
+<h3>GitHub Pagesでプレゼンテーション</h3>
+
+<ol>
+<li>まず、普通にMarkdown文書を作る</li>
+<li><code class='inline prettyprint'>$ mdpress readme.md</code>でプレゼンテーションが <em>readme</em> フォルダに作られる</li>
+<li>originブランチにpush</li>
+<li>Setting -> GitHub Pagesで空のGitHub Pagesをつくる</li>
+<li>gh-pagesブランチがGitHub上にできる</li>
+<li>pullするとgh-pagesブランチもローカルに付いてくる</li>
+<li><code class='inline prettyprint'>$ git checkout gh-pages</code></li>
+<li><code class='inline prettyprint'>$ cp -rf readme/* .</code></li>
+<li><code class='inline prettyprint'>$ git push -u origin gh-pages</code> （最初だけ）</li>
+<li><code class='inline prettyprint'>$ git push</code> （2回目以降）</li>
+</ol>
 
       </div>
     <script src="js/impress.js"></script>
