@@ -363,3 +363,9 @@ configure :production do
   )
 end
 ```
+
+---
+というわけで、
+
+# わたし、Preziやめます
+以上
