@@ -273,6 +273,28 @@ $ mdpress readme.md
 これだけで *readme* というフォルダが作成され、その中の *index.html* を開くとプレゼンテーションが始まる。
 
 ---
+###Quickstart (writing your first presentation!)
+
+    #### Chicken Chicken Chicken
+    ##### By Chicken
+    
+    ---
+    
+    #### Chicken
+    - Chicken
+    - Chicken Chicken
+
+---
+#### Chicken Chicken Chicken
+##### By Chicken
+
+---
+
+#### Chicken
+- Chicken
+- Chicken Chicken
+
+---
 ### GitHub Pagesでプレゼンテーション
 
 1. まず、普通にMarkdown文書を作る
