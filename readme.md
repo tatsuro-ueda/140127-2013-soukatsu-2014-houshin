@@ -419,7 +419,7 @@ git checkout gh-pages
 ---
 ```
 # 先ほど生成したreadmeフォルダの中身をレポジトリにコピーする
-cp -rf ../readme .
+cp -rf ../readme/* .
 
 # 自動的にcommit＋push
 git add .
