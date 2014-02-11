@@ -415,7 +415,7 @@ cd 140127-2013-soukatsu-2014-houshin
 
 # Markdownをpush
 git add .
-git commit -m “hoge”
+git commit -m "commited automatically by push.sh"
 git push
 
 # mdpressコマンドでreadmeフォルダを生成
@@ -439,6 +439,7 @@ git checkout master
 
 # 元いたディレクトリに戻る
 cd ..
+
 
 ```
 
