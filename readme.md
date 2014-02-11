@@ -354,14 +354,17 @@ $ mdpress readme.md
 1. git push
 1. originブランチに戻しておく
 
+こういうことはGruntでバッチ化できるのか？シェルスクリプトを書くべき？
+
 ---
 ## 未知数なこと	
 
 - Impress.jsの表現力は高く、Preziのような2次元を活用したプレゼンも可能らしい
-- コードのシンタックスハイライトはできるのか？もしかしてmdpressがやってくれるのか？
+- Ruby以外のコードのシンタックスハイライトはできるのか？
+- 作業の自動化が必要。できるのか？
 
 ---
-##Ruby
+##シンタックスハイライト：Ruby
 
 ```
 configure :production do
@@ -375,7 +378,7 @@ end
 ```
 
 ---
-## Objective-C
+## シンタックスハイライト：Objective-C
 
 ```
 NSBundle* bundle = [NSBundle mainBundle];
