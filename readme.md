@@ -414,6 +414,8 @@ for(NSDictionary* question in questions) {
 cd 140127-2013-soukatsu-2014-houshin
 
 # Markdownをpush
+git add .
+git commit -m “commited automatically by push.sh”
 git push
 
 # mdpressコマンドでreadmeフォルダを生成
@@ -428,11 +430,12 @@ git checkout gh-pages
 cp -rf ../readme .
 
 # 自動的にcommit＋push
+git add .
 git commit -m "commited automatically by push.sh"
 git push
 
 # originブランチに戻す
-git checkout origin
+git checkout master
 
 # 元いたディレクトリに戻る
 cd ..
