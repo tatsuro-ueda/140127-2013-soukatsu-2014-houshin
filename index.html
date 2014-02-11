@@ -30,7 +30,7 @@
     
 <h1>わたし、Preziやめます</h1>
 </div>
-      <div class='step'  data-x="1000">
+      <div class='step' >
     
 <h1>2013年総括案</h1>
 
@@ -408,9 +408,10 @@
 
 <ul>
 <li>Markdown最高！</li>
-<li>とりあえずLT用に見出しだけ作って、LT後に加筆して記事にできる</li>
+<li>とりあえずLT用に見出しだけ作って、</li>
+<li>LT後に加筆すれば記事になる</li>
 <li>できた記事をQiitaなりはてなブログなりに貼り付ければパブリッシュ完了</li>
-<li>無駄がない</li>
+<li>無駄がないワークフロー</li>
 </ul>
 </div>
       <div class='step' >
@@ -459,6 +460,8 @@
 <li>git push</li>
 <li>originブランチに戻しておく</li>
 </ol>
+
+<p>こういうことはGruntでバッチ化できるのか？シェルスクリプトを書くべき？</p>
 </div>
       <div class='step' >
     
@@ -466,12 +469,13 @@
 
 <ul>
 <li>Impress.jsの表現力は高く、Preziのような2次元を活用したプレゼンも可能らしい</li>
-<li>コードのシンタックスハイライトはできるのか？もしかしてmdpressがやってくれるのか？</li>
+<li>Ruby以外のコードのシンタックスハイライトはできるのか？</li>
+<li>作業の自動化が必要。できるのか？</li>
 </ul>
 </div>
       <div class='step' >
     
-<h2>Ruby</h2>
+<h2>シンタックスハイライト：Ruby</h2>
 <pre><code class='prettyprint '>configure :production do
   set :cache, Dalli::Client.new(
     ENV['MEMCACHE_SERVERS'],
@@ -483,7 +487,7 @@ end
 </code></pre></div>
       <div class='step' >
     
-<h2>Objective-C</h2>
+<h2>シンタックスハイライト：Objective-C</h2>
 <pre><code class='prettyprint '>NSBundle* bundle = [NSBundle mainBundle];
 NSString* path = [bundle pathForResource:@"Questions" ofType:@"plist"];
 questions = [NSArray arrayWithContentsOfFile:path];
