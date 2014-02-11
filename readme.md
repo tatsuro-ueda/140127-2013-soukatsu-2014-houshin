@@ -399,6 +399,7 @@ for(NSDictionary* question in questions) {
 
 ```
 # レポジトリに入る
+# フォルダ名は引数にしたい
 cd 140127-2013-soukatsu-2014-houshin
 
 # Markdownをpush
