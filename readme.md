@@ -298,6 +298,10 @@ Railsは、CakeやSinatraといった様々なものに影響を与えた、Web�
 # 長期的展望
 
 ---
+## DEMO
+[Interactive Physics紹介](http://www.youtube.com/watch?v=rOri3-iCzCM)
+
+---
 ## 最終的目標
 
 - 学習用の物理動画サイトをつくること
@@ -331,9 +335,6 @@ Railsは、CakeやSinatraといった様々なものに影響を与えた、Web�
 - SpriteKit
 - Box2D（物理演算ライブラリ、古いか？）
 - ？
-
----
-## DEMO
 
 ---
 *One More Thing...*
