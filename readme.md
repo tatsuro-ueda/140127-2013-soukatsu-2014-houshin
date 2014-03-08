@@ -1,5 +1,5 @@
 # わたし、Preziやめます
-ver. 0.7
+ver. 0.8
 
 ---
 ## 目次
@@ -405,7 +405,7 @@ end
 ---
 ## シンタックスハイライト：Objective-C
 
-```
+```Objective-C
 NSBundle* bundle = [NSBundle mainBundle];
 NSString* path = [bundle pathForResource:@"Questions" ofType:@"plist"];
 questions = [NSArray arrayWithContentsOfFile:path];
